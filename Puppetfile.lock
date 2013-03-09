@@ -1,12 +1,57 @@
 GITHUBTARBALL
+  remote: AquaGeek/puppet-textmate2
+  specs:
+    textmate (1.1.0)
+
+GITHUBTARBALL
+  remote: JHaals/puppet-vim
+  specs:
+    vim (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-erlang
+  specs:
+    erlang (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -19,6 +64,16 @@ GITHUBTARBALL
     git (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-handbrake
+  specs:
+    handbrake (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.1.0)
@@ -27,6 +82,16 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-minecraft
+  specs:
+    minecraft (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -44,9 +109,59 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pcre
+  specs:
+    pcre (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pkgconfig
+  specs:
+    pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-solr
+  specs:
+    solr (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -54,9 +169,49 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-watts
+  specs:
+    watts (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xpdf
+  specs:
+    xpdf (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
+
+GITHUBTARBALL
+  remote: fromonesrc/puppet-transmission
+  specs:
+    transmission (1.0.0)
+
+GITHUBTARBALL
+  remote: mattheath/puppet-googleearth
+  specs:
+    googleearth (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -64,17 +219,49 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  alfred (= 1.0.1)
   boxen (= 1.2.0)
+  chrome (= 1.1.0)
+  clojure (= 1.2.0)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.0.0)
+  emacs (= 1.0.0)
+  erlang (= 1.0.0)
+  firefox (= 1.0.1)
+  gcc (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  gitx (= 1.1.0)
+  googleearth (= 1.0.0)
+  handbrake (= 1.0.0)
   homebrew (= 1.1.0)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  java (= 1.0.6)
+  minecraft (= 1.0.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  osx (= 1.0.0)
+  pcre (= 1.0.0)
+  phantomjs (= 1.0.0)
+  pkgconfig (= 1.0.0)
+  python (= 1.1.1)
+  redis (= 1.0.0)
   ruby (= 3.1.0)
+  skype (= 1.0.1)
+  solr (= 1.0.0)
+  spotify (= 1.0.0)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  textmate (= 1.1.0)
+  transmission (= 1.0.0)
+  vim (= 1.0.1)
+  vlc (= 1.0.0)
+  watts (= 1.0.0)
+  wget (= 1.0.0)
+  xpdf (= 1.0.0)
+  xquartz (= 1.0.0)
+  zsh (= 1.0.0)
 

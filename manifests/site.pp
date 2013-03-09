@@ -86,3 +86,37 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+include textmate::textmate2
+include vim
+vim::bundle { 'scrooloose/syntastic': }
+include osx
+include firefox
+include python
+include chrome
+include skype
+include transmission
+include sublime_text_2
+include java
+include clojure
+include alfred
+include gitx
+include dropbox
+include googleearth
+include zsh
+include xquartz
+include xpdf
+include wget
+include watts
+include vlc
+include spotify
+include solr
+include phantomjs
+include pcre
+include minecraft
+include pkgconfig
+include handbrake
+include gcc
+include erlang
+include emacs
+include redis
