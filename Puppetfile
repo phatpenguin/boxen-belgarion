@@ -31,9 +31,14 @@ github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
+# Required for my chosen modules
+github "osx",	   "1.0.0"
+github "autoconf", "1.0.0"
+github "libtool",  "1.0.0"
+github "boxen",  "1.2.0"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "osx", "1.0.0", :repo => "boxen/puppet-osx"
 github "firefox",  "1.0.1", :repo => "boxen/puppet-firefox"
 github "textmate", "1.1.0", :repo => "AquaGeek/puppet-textmate2"
 github "vim", "1.0.1", :repo => "JHaals/puppet-vim"

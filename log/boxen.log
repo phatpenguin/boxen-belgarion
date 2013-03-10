@@ -1,4 +1,15 @@
-Sat Mar 09 14:36:55 -0700 2013 Puppet (err): Unable to set ownership of log file
-Sat Mar 09 14:36:56 -0700 2013 Puppet (warning): Deprecation notice:  Resource references should now be capitalized on line 7 in file /opt/boxen/repo/shared/textmate/manifests/textmate2.pp
-Sat Mar 09 14:36:56 -0700 2013 Puppet (err): Could not find class osx for belgarion.local on node belgarion.local
-Sat Mar 09 14:36:56 -0700 2013 Puppet (err): Could not find class osx for belgarion.local on node belgarion.local
+Sat Mar 09 17:04:55 -0700 2013 Puppet (err): Unable to set ownership of log file
+Sat Mar 09 17:04:57 -0700 2013 Puppet (warning): Deprecation notice:  Resource references should now be capitalized on line 7 in file /opt/boxen/repo/shared/textmate/manifests/textmate2.pp
+Sat Mar 09 17:04:57 -0700 2013 Puppet (warning): Config file /tmp/boxen/puppet/conf/hiera.yaml not found, using Hiera defaults
+Sat Mar 09 17:05:18 -0700 2013 Puppet (err): Execution of '/usr/bin/hdiutil mount -plist -nobrowse -readonly -noidme -mountrandom /tmp /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/d20130309-18980-yecc11/Skype' returned 1: hdiutil: mount failed - not recognized
+Sat Mar 09 17:05:18 -0700 2013 /Stage[main]/Skype/Package[Skype]/ensure (err): change from absent to present failed: Execution of '/usr/bin/hdiutil mount -plist -nobrowse -readonly -noidme -mountrandom /tmp /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/d20130309-18980-yecc11/Skype' returned 1: hdiutil: mount failed - not recognized
+Sat Mar 09 17:05:31 -0700 2013 Puppet (err): Could not set 'present' on ensure: Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew switch erlang R16B at 18:/opt/boxen/repo/shared/erlang/manifests/init.pp
+Sat Mar 09 17:05:31 -0700 2013 Puppet (err): Could not set 'present' on ensure: Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew switch erlang R16B at 18:/opt/boxen/repo/shared/erlang/manifests/init.pp
+Wrapped exception:
+Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew switch erlang R16B
+Sat Mar 09 17:05:31 -0700 2013 /Stage[main]/Erlang/Package[erlang]/ensure (err): change from absent to present failed: Could not set 'present' on ensure: Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew switch erlang R16B at 18:/opt/boxen/repo/shared/erlang/manifests/init.pp
+Sat Mar 09 17:06:42 -0700 2013 Puppet (err): Could not update: Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew boxen-install boxen/brews/python
+Sat Mar 09 17:06:42 -0700 2013 /Stage[main]/Python/Package[boxen/brews/python]/ensure (err): change from absent to 2.7.3-boxen2 failed: Could not update: Failed running sudo -E -u scott /opt/boxen/homebrew/bin/brew boxen-install boxen/brews/python
+Sat Mar 09 17:06:42 -0700 2013 /Stage[main]/Python/File[/opt/boxen/homebrew/lib/python2.7/site-packages] (notice): Dependency Package[boxen/brews/python] has failures: true
+Sat Mar 09 17:06:42 -0700 2013 /Stage[main]/Python/File[/opt/boxen/homebrew/lib/python2.7/site-packages] (warning): Skipping because of failed dependencies
+Sat Mar 09 17:06:45 -0700 2013 /Stage[main]/Pkgconfig/Package[gettext]/ensure (notice): created

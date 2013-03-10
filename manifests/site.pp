@@ -87,10 +87,12 @@ node default {
   }
 }
 
+
+include stdlib
+
 include textmate::textmate2
 include vim
 vim::bundle { 'scrooloose/syntastic': }
-include osx
 include firefox
 include python
 include chrome
