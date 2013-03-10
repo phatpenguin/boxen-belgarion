@@ -1,0 +1,3 @@
+class libtool {
+  package { 'libtool': }
+}
