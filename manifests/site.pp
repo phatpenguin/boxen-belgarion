@@ -94,9 +94,7 @@ include textmate::textmate2
 include vim
 vim::bundle { 'scrooloose/syntastic': }
 include firefox
-include python
 include chrome
-include skype
 include transmission
 include sublime_text_2
 include java
@@ -119,6 +117,5 @@ include minecraft
 include pkgconfig
 include handbrake
 include gcc
-include erlang
 include emacs
 include redis
